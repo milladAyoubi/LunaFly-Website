@@ -1,0 +1,135 @@
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+    /* Utillities */
+    
+     :root {
+        --primary-color: #84ceeb;
+        --secondary-color: #5cdb95;
+        --tertrity-color: #ffe400;
+        --light-grey: rgb(243, 243, 243);
+        --dark-grey: #333;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 2rem 0 0 0;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--dark-grey);
+    }
+    
+    h1 {
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    h2 {
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0px 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    p {
+        margin: 10px 0px;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+    }
+    /* Nav Section*/
+    
+    .nav {
+        height: var(--top-height);
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        font-weight: var(--font-semi);
+    }
+    
+    .logo {
+        position: relative;
+        left: 9rem;
+    }
+    
+    .navMenu {
+        display: inline-flex;
+        margin: auto;
+        width: 80rem;
+        padding-top: 10px;
+    }
+    
+    .navMenu li {
+        justify-content: space-between;
+        margin: 0px 40px 0px 40px;
+        display: inline;
+        font-family: 'Roboto';
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .navMenu li a {
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .navMenu li :hover {
+        border-bottom: 4px solid rgb(211, 211, 211);
+        transition: 0.2s;
+    }
+    
+    .navLink {
+        margin-bottom: 15px;
+        color: var(--t-color);
+        text-decoration: none;
+    }
+    
+    .bookNow {
+        margin-left: auto;
+    }
+    
+    .bookNow button {
+        font-size: 2rem;
+        width: 14rem;
+    }
+    
+    .titleText {
+        margin: auto auto auto 200;
+        letter-spacing: 2px;
+        overflow: hidden;
+        width: 110%;
+        z-index: 1;
+    }
+    
+    .titleText .btn {
+        font-size: 1.2rem;
+        background-color: transparent;
+        color: rgb(36, 69, 255);
+    }
+    
+    .titleText h1 {
+        font-size: 4rem;
+        margin-bottom: 60px;
+    }
+    
+    .titleText h3 {
+        width: 55%;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
