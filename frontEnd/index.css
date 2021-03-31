@@ -1,190 +1,191 @@
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-    /* Utillities */
-    
-     :root {
-        --primary-color: #84ceeb;
-        --secondary-color: #5cdb95;
-        --tertrity-color: #ffe400;
-        --light-grey: rgb(243, 243, 243);
-        --dark-grey: #333;
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        margin: 0 0 0 0;
-        color: #333;
-    }
-    
-    ul {
-        list-style-type: none;
-    }
-    
-    a {
-        text-decoration: none;
-        color: var(--dark-grey);
-    }
-    
-    h1 {
-        font-weight: 600;
-        font-family: "Poppins", sans-serif;
-    }
-    
-    h2 {
-        font-weight: 300;
-        line-height: 1.2;
-        margin: 0px 0px;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    p {
-        margin: 10px 0px;
-    }
-    
-    img {
-        border-radius: 5px;
-    }
-    
-    .grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        width: 100%;
-    }
-    
-    .gridDestinations {
-        display: inline-flex;
-        justify-content: center;
-        margin: 5% 0;
-        gap: 5%;
-        width: 100%;
-    }
-    
-    .nav {
-        height: var(--top-height);
-        display: flex;
-        justify-content: space-between;
-        background-color: rgb(255, 255, 255);
-        font-weight: var(--font-semi);
-    }
-    
-    .logo {
-        position: relative;
-        left: 10%;
-    }
-    
-    .navContent {
-        display: inline-flex;
-        text-align: center;
-        width: 100%;
-    }
-    
-    .navMenu {
-        display: inline-flex;
-        justify-content: flex-start;
-        margin: auto;
-        padding: 30px;
-    }
-    
-    .navMenu li {
-        justify-content: space-between;
-        margin: 0px 40px 0px 40px;
-        display: inline;
-        font-family: 'Roboto';
-        font-size: 2rem;
-        font-weight: 300;
-    }
-    
-    .navMenu li a {
-        text-decoration: none;
-        padding: 5px;
-    }
-    
-    .navMenu li :hover {
-        border-bottom: 4px solid rgb(236, 236, 236);
-        transition: 0.2s;
-    }
-    
-    .navLink {
-        margin-bottom: 15px;
-        color: var(--t-color);
-        text-decoration: none;
-    }
-    
-    .bookNow {
-        margin-left: auto;
-    }
-    
-    .bookNow button {
-        font-size: 2rem;
-        width: 14rem;
-    }
-    
-    .titleText {
-        margin: auto auto auto 200;
-        letter-spacing: 2px;
-        overflow: hidden;
-        width: 110%;
-        z-index: 1;
-    }
-    
-    .titleText .btn {
-        font-size: 1.2rem;
-        background-color: transparent;
-        color: rgb(36, 69, 255);
-    }
-    
-    .titleText h1 {
-        font-size: 4rem;
-        margin-bottom: 60px;
-    }
-    
-    .titleText h3 {
-        width: 55%;
-        font-weight: 400;
-        margin-bottom: 30px;
-    }
-    
-    .titleImg {
-        position: relative;
-        right: 8rem;
-        bottom: 2rem;
-    }
-    
-    .Destinations {
-        text-align: center;
-        margin-top: 80px;
-    }
-    
-    .planet {
-        height: 500px;
-    }
-    
-    .planetContent {
-        margin: auto;
-        height: 450px;
-        width: 400px;
-        padding-top: 40px;
-        border-radius: 10px;
-        color: white;
-        background-image: linear-gradient(50deg, #2c1a94, #000429);
-        box-shadow: 8px 10px 4px rgb(219, 219, 219);
-    }
-    
-    .planetContentText {
-        margin: 20 auto;
-        height: 12rem;
-        padding: 40px;
-    }
-    
-    .planetContentButton button {
-        background-image: linear-gradient(90deg, #b534ff 0%, #7918F2 48%, #3900c9 100%);
-        border-radius: 0 0 8px 8px;
-        width: 100%;
-    }
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+        /* Utillities */
+        
+         :root {
+            --primary-color: #84ceeb;
+            --secondary-color: #5cdb95;
+            --tertrity-color: #ffe400;
+            --light-grey: rgb(243, 243, 243);
+            --dark-grey: #333;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            margin: 0 0 0 0;
+            color: #333;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--dark-grey);
+        }
+        
+        h1 {
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        h2 {
+            font-weight: 300;
+            line-height: 1.2;
+            margin: 0px 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        p {
+            margin: 10px 0px;
+        }
+        
+        img {
+            border-radius: 5px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 65% 35%;
+            width: 100%;
+        }
+        
+        .gridDestinations {
+            display: inline-flex;
+            justify-content: center;
+            margin: 5% 0;
+            gap: 5%;
+            width: 100%;
+        }
+        
+        .nav {
+            height: var(--top-height);
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(255, 255, 255);
+            font-weight: var(--font-semi);
+        }
+        
+        .logo {
+            position: relative;
+            left: 10%;
+        }
+        
+        .navContent {
+            display: inline-flex;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .navMenu {
+            display: inline-flex;
+            justify-content: flex-start;
+            margin: auto;
+            padding: 30px;
+        }
+        
+        .navMenu li {
+            justify-content: space-between;
+            margin: 0px 40px 0px 40px;
+            display: inline;
+            font-family: 'Roboto';
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        
+        .navMenu li a {
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        .navMenu li :hover {
+            border-bottom: 4px solid rgb(236, 236, 236);
+            transition: 0.2s;
+        }
+        
+        .navLink {
+            margin-bottom: 15px;
+            color: var(--t-color);
+            text-decoration: none;
+        }
+        
+        .bookNow {
+            margin-left: auto;
+        }
+        
+        .bookNow button {
+            font-size: 2rem;
+            width: 14rem;
+        }
+        
+        .titleText {
+            margin: auto;
+            letter-spacing: 2px;
+            z-index: 1;
+        }
+        
+        .titleText .btn {
+            font-size: 1.2rem;
+            background-color: transparent;
+            color: rgb(36, 69, 255);
+        }
+        
+        .titleText h1 {
+            font-size: 4rem;
+            margin-bottom: 60px;
+        }
+        
+        .titleText h3 {
+            width: 55%;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        
+        .titleImg {
+            position: relative;
+            right: 8rem;
+            bottom: 2rem;
+        }
+        
+        .Destinations {
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .planet {
+            height: 500px;
+        }
+        
+        .planetContent {
+            margin: auto;
+            height: 450px;
+            width: 400px;
+            padding-top: 40px;
+            border-radius: 10px;
+            color: white;
+            background-image: linear-gradient(50deg, #2c1a94, #000429);
+            box-shadow: 8px 10px 4px rgb(219, 219, 219);
+        }
+        
+        .planetContentText {
+            margin: 20 auto;
+            height: 12rem;
+            padding: 40px;
+        }
+        
+        .planetContentButton button {
+            background-image: linear-gradient(90deg, #b534ff 0%, #7918F2 48%, #3900c9 100%);
+            border-radius: 0 0 8px 8px;
+            width: 100%;
+        }
+        /*Responsive Design For Screen Sizes*/
+        
+        @media screen and (max-width: 768px) {}
