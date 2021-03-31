@@ -202,4 +202,7 @@
             .titleText h1 {
                 font-size: 3rem;
             }
+            .gridDestinations {
+                gap: 14px;
+            }
         }
