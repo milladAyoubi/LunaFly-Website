@@ -173,8 +173,8 @@
         padding-top: 40px;
         border-radius: 10px;
         color: white;
-        background-image: linear-gradient(60deg, #0d048f, #080f55);
-        box-shadow: 2px 2px rgb(241, 241, 241);
+        background-image: linear-gradient(50deg, #2c1a94, #000429);
+        box-shadow: 8px 10px 4px rgb(219, 219, 219);
     }
     
     .planetContentText {
@@ -184,7 +184,7 @@
     }
     
     .planetContentButton button {
-        background-image: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+        background-image: linear-gradient(90deg, #b534ff 0%, #7918F2 48%, #3900c9 100%);
         border-radius: 0 0 8px 8px;
         width: 100%;
     }
