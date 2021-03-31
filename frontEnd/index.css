@@ -76,7 +76,7 @@
         
         .logo {
             position: relative;
-            left: 10%;
+            left: 6%;
         }
         
         .navContent {
@@ -152,7 +152,6 @@
         .titleImg {
             position: relative;
             right: 8rem;
-            bottom: 2rem;
         }
         
         .Destinations {
@@ -188,4 +187,19 @@
         }
         /*Responsive Design For Screen Sizes*/
         
-        @media screen and (max-width: 768px) {}
+        @media screen and (max-width: 1390px) {
+            .logo img {
+                width: 140px;
+            }
+            .titleImg img {
+                position: relative;
+                top: 30px;
+                width: 500px;
+            }
+            .navMenu li {
+                font-size: 1.4rem;
+            }
+            .titleText h1 {
+                font-size: 3rem;
+            }
+        }
