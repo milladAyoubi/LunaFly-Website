@@ -59,9 +59,10 @@
     }
     
     .gridDestinations {
-        display: grid;
+        display: inline-flex;
+        justify-content: center;
         margin: 5% 0;
-        grid-template-columns: 33% 33% 33%;
+        gap: 5%;
         width: 100%;
     }
     
@@ -163,13 +164,12 @@
     
     .planet {
         height: 500px;
-        text-align: center;
     }
     
     .planetContent {
         margin: auto;
         height: 450px;
-        width: 60%;
+        width: 400px;
         padding-top: 40px;
         border-radius: 10px;
         color: white;
