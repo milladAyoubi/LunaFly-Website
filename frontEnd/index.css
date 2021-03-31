@@ -168,7 +168,7 @@
     
     .planetContent {
         margin: auto;
-        height: 420px;
+        height: 450px;
         width: 60%;
         padding-top: 40px;
         border-radius: 10px;
@@ -179,7 +179,7 @@
     
     .planetContentText {
         margin: 20 auto;
-        height: 14rem;
+        height: 12rem;
         padding: 40px;
     }
     
