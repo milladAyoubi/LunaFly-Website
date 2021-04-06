@@ -185,6 +185,36 @@
             border-radius: 0 0 8px 8px;
             width: 100%;
         }
+        
+        .mainImage {
+            opacity: 0;
+            position: relative;
+            left: 500px;
+        }
+        
+        .mainText {
+            opacity: 0;
+            position: relative;
+            right: 100px;
+        }
+        
+        .FadeRight {
+            opacity: 1;
+            left: 0;
+            transition: 1.6s ease-in-out;
+        }
+        
+        .FadeLeft {
+            opacity: 1;
+            right: 0;
+            transition: 1.6s ease-in-out;
+        }
+        
+        .Destinations {
+            opacity: 0;
+            position: relative;
+            right: 800px;
+        }
         /*Responsive Design For Screen Sizes*/
         
         @media screen and (max-width: 1390px) {
