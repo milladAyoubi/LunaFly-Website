@@ -5,7 +5,10 @@ var mainImage = document.querySelector(".mainImage")
 var mainText = document.querySelector(".mainText")
 
 
-var planetTab = document.querySelector("#destinations")
+
+
+var planetTab = document.querySelectorAll(".planet")
+
 
 
 const onLoad = () => {
@@ -16,7 +19,7 @@ const onLoad = () => {
     }, 1000);
 
     mainText.classList.add("FadeLeft")
-    planetTab.classList.add("FadeLeft")
+
 
 
 
@@ -24,3 +27,12 @@ const onLoad = () => {
 
 
 onLoad()
+
+
+planetTab.forEach((e, i) => {
+    setTimeout(function() {
+        e.classList.add("FadeTop")
+
+
+    }, i * 300);
+})

@@ -160,7 +160,9 @@
         }
         
         .planet {
-            height: 500px;
+            opacity: 0;
+            position: relative;
+            bottom: 200px;
         }
         
         .planetContent {
@@ -189,7 +191,7 @@
         .mainImage {
             opacity: 0;
             position: relative;
-            left: 500px;
+            left: 100px;
         }
         
         .mainText {
@@ -207,13 +209,18 @@
         .FadeLeft {
             opacity: 1;
             right: 0;
-            transition: 1.6s ease-in-out;
+            transition: 1.2s ease-in-out;
         }
         
-        .Destinations {
-            opacity: 0;
-            position: relative;
-            right: 800px;
+        .FadeTop {
+            opacity: 1;
+            bottom: 0;
+            transition: 1.2s ease-in-out;
+        }
+        
+        .fade {
+            opacity: 1;
+            transition: 1.2s ease-in-out;
         }
         /*Responsive Design For Screen Sizes*/
         
