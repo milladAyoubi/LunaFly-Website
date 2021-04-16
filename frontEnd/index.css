@@ -167,13 +167,28 @@
         
         .planetContent {
             margin: auto;
-            height: 450px;
+            height: 470px;
             width: 400px;
             padding-top: 40px;
             border-radius: 10px;
-            color: white;
-            background-image: linear-gradient(50deg, #2c1a94, #000429);
+            border: 4px solid #fcfdff;
             box-shadow: 8px 10px 4px rgb(219, 219, 219);
+            transition: 0.2s;
+        }
+        
+        .planetContent1:hover {
+            transform: rotate(-10deg) translateY(-25px);
+            transition: 0.2s;
+        }
+        
+        .planetContent2:hover {
+            transform: translateY(-40px);
+            transition: 0.2s;
+        }
+        
+        .planetContent3:hover {
+            transform: rotate(10deg) translateY(-50px);
+            transition: 0.2s;
         }
         
         .planetContentText {
@@ -184,8 +199,9 @@
         
         .planetContentButton button {
             background-image: linear-gradient(90deg, #b534ff 0%, #7918F2 48%, #3900c9 100%);
-            border-radius: 0 0 8px 8px;
-            width: 100%;
+            border: none;
+            border-radius: 5px;
+            width: 30%;
         }
         
         .mainImage {
