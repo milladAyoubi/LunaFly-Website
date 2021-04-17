@@ -22,7 +22,7 @@ function loadContent() {
     if (y1.top <= 235) {
         planetTab.forEach((e, i) => {
             setTimeout(function() {
-                e.classList.add("FadeTop")
+                e.classList.add("FadeBottom")
 
 
             }, i * 300);

@@ -163,7 +163,7 @@
         .planet {
             opacity: 0;
             position: relative;
-            bottom: 200px;
+            top: 200px;
         }
         
         .planetContent {
@@ -224,6 +224,22 @@
             width: 75%;
         }
         
+        .planetGridGallary {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 1rem;
+            margin: 100px auto 200px auto;
+            width: 75%;
+        }
+        
+        .subGallary {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin: auto;
+            gap: 0.5rem;
+            width: 100%;
+        }
+        
         .PartyCity {
             display: grid;
             grid-template-columns: 30% 70%;
@@ -269,6 +285,11 @@
             width: 80%;
         }
         
+        .PlanetGallary {
+            text-align: center;
+            margin-top: 80px;
+        }
+        
         .gallery__img {
             width: 100%;
         }
@@ -297,9 +318,9 @@
             transition: 1.2s ease-in-out;
         }
         
-        .FadeTop {
+        .FadeBottom {
             opacity: 1;
-            bottom: 0;
+            top: 0;
             transition: 1.2s ease-in-out;
         }
         
