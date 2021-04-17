@@ -1,5 +1,6 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
         /* Utillities */
         
          :root {
@@ -204,6 +205,68 @@
             width: 30%;
         }
         
+        .Attractions {
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .Megaopolis {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            gap: 2.5rem;
+            margin: 100px auto 200px auto;
+            width: 75%;
+        }
+        
+        .PartyCity {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            gap: 2.5rem;
+            margin: 140px auto;
+            width: 75%;
+        }
+        
+        .attaractionName {
+            font-family: 'Orbitron';
+            color: rgb(6, 8, 88);
+        }
+        
+        .attractionInfo {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .attractionText2 {
+            text-align: right;
+            position: relative;
+            Left: 40px;
+            opacity: 0;
+            width: 100%;
+        }
+        
+        .attractionText {
+            text-align: Left;
+            position: relative;
+            right: 40px;
+            opacity: 0;
+            width: 100%;
+        }
+        
+        .btnAttraction {
+            border: 4px solid #7918F2;
+            color: #7918F2;
+            background: none;
+            border-radius: 25px;
+            font-size: 20px;
+            width: 80%;
+        }
+        
+        .gallery__img {
+            width: 100%;
+        }
+        
         .mainImage {
             opacity: 0;
             position: relative;
@@ -236,6 +299,18 @@
         
         .fade {
             opacity: 1;
+            transition: 1.2s ease-in-out;
+        }
+        
+        .FadeAttractionRight {
+            opacity: 1;
+            right: 0;
+            transition: 1.2s ease-in-out;
+        }
+        
+        .FadeAttractionLeft {
+            opacity: 1;
+            Left: 0;
             transition: 1.2s ease-in-out;
         }
         /*Responsive Design For Screen Sizes*/
