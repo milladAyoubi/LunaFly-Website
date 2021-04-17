@@ -177,6 +177,12 @@
             transition: 0.2s;
         }
         
+        .planetContent:hover {
+            border: 4px solid rgb(84, 94, 233);
+            box-shadow: 8px 10px 4px rgb(175, 179, 233);
+            transition: 0.2s;
+        }
+        
         .planetContent1:hover {
             transform: rotate(-10deg) translateY(-25px);
             transition: 0.2s;
