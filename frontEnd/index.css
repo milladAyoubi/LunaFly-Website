@@ -68,7 +68,8 @@
         }
         
         .nav {
-            height: var(--top-height);
+            position: relative;
+            bottom: 2rem;
             display: flex;
             justify-content: space-between;
             background-color: rgb(255, 255, 255);
@@ -153,6 +154,7 @@
         .titleImg {
             position: relative;
             right: 8rem;
+            bottom: 2rem;
         }
         
         .Destinations {
@@ -220,7 +222,7 @@
             display: grid;
             grid-template-columns: 70% 30%;
             gap: 2.5rem;
-            margin: 100px auto 200px auto;
+            margin: 40px auto 200px auto;
             width: 75%;
         }
         
@@ -228,7 +230,7 @@
             display: grid;
             grid-template-columns: 50% 50%;
             gap: 1rem;
-            margin: 100px auto 200px auto;
+            margin: 40px auto 200px auto;
             width: 75%;
         }
         
