@@ -78,6 +78,7 @@
         
         .logo {
             position: relative;
+            top: 2rem;
             left: 6%;
         }
         
@@ -108,7 +109,7 @@
             padding: 5px;
         }
         
-        .navMenu li :hover {
+        .navMenu li:hover {
             border-bottom: 4px solid rgb(236, 236, 236);
             transition: 0.2s;
         }

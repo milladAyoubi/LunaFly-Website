@@ -10,6 +10,9 @@ var planetTab = document.querySelectorAll(".planet")
 var city1attractionTab = document.querySelectorAll(".attractionText")
 var city2attractionTab = document.querySelectorAll(".attractionText2")
 
+
+
+
 function loadContent() {
 
     var destinationHeight = document.querySelector(".Destinations")
@@ -65,8 +68,6 @@ const onLoad = () => {
     mainText.classList.add("FadeLeft")
 
 }
-
-
 
 
 
