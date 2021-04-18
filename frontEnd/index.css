@@ -244,7 +244,7 @@
             display: grid;
             grid-template-columns: 30% 70%;
             gap: 2.5rem;
-            margin: 140px auto;
+            margin: 40px auto 200px auto;
             width: 75%;
         }
         
