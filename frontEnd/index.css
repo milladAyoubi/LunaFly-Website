@@ -374,6 +374,12 @@
             border: 3px solid white;
         }
         
+        .footerElement {
+            position: relative;
+            top: 100px;
+            opacity: 0;
+        }
+        
         .footImg {
             width: 100%;
         }

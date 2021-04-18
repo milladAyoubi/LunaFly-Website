@@ -9,6 +9,7 @@ var mainText = document.querySelector(".mainText")
 var planetTab = document.querySelectorAll(".planet")
 var city1attractionTab = document.querySelectorAll(".attractionText")
 var city2attractionTab = document.querySelectorAll(".attractionText2")
+var footer = document.querySelectorAll(".footerElement")
 
 
 
@@ -49,6 +50,17 @@ function loadContent() {
         city2attractionTab.forEach((e, i) => {
             setTimeout(function() {
                 e.classList.add("FadeAttractionLeft")
+
+
+            }, i * 500);
+        })
+    }
+
+
+    if (y >= 3800) {
+        footer.forEach((e, i) => {
+            setTimeout(function() {
+                e.classList.add("FadeBottom")
 
 
             }, i * 500);
