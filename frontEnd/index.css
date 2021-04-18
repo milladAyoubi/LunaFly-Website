@@ -254,14 +254,16 @@
         }
         
         .attractionInfo {
-            text-align: left;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            background-color: rgb(244, 249, 253);
+            border-radius: 10px;
         }
         
         .attractionText2 {
-            text-align: right;
+            text-align: center;
             position: relative;
             Left: 40px;
             opacity: 0;
@@ -269,7 +271,7 @@
         }
         
         .attractionText {
-            text-align: Left;
+            text-align: center;
             position: relative;
             right: 40px;
             opacity: 0;
