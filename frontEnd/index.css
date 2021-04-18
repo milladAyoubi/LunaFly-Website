@@ -343,6 +343,40 @@
             right: 100px;
         }
         
+        .footerImage {
+            position: relative;
+            text-align: center;
+        }
+        
+        .footerText {
+            position: absolute;
+            color: white;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .btnStart {
+            font-size: 16px;
+            font-weight: 1000;
+            padding: 10px 20px;
+            border: 3px solid white;
+            border-radius: 2px;
+            font-family: 'Poppins', sans-serif;
+            background-color: transparent;
+            color: white;
+        }
+        
+        .btnStart:hover {
+            background-color: white;
+            color: black;
+            border: 3px solid white;
+        }
+        
+        .footImg {
+            width: 100%;
+        }
+        
         .FadeRight {
             opacity: 1;
             left: 0;
