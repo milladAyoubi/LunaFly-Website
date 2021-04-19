@@ -427,6 +427,7 @@
             .titleImg img {
                 position: relative;
                 top: 30px;
+                left: 2rem;
                 width: 500px;
             }
             .navMenu li {
@@ -436,6 +437,23 @@
                 font-size: 3rem;
             }
             .gridDestinations {
-                gap: 14px;
+                gap: 2rem;
+            }
+            .planetContent {
+                width: 350px;
+            }
+            .Megaopolis {
+                grid-template-columns: 65% 35%;
+                width: 80%;
+            }
+            .PartyCity {
+                grid-template-columns: 35% 65%;
+                width: 80%;
+            }
+            .attractionText {
+                text-align: left;
+            }
+            .attractionText2 {
+                text-align: right;
             }
         }
