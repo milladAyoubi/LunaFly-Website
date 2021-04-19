@@ -57,7 +57,7 @@ function loadContent() {
     }
 
 
-    if (y >= 3800) {
+    if (y >= 3600) {
         footer.forEach((e, i) => {
             setTimeout(function() {
                 e.classList.add("FadeBottom")
