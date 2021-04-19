@@ -2,7 +2,7 @@ var butt = document.querySelector("#buttonBook");
 
 
 var mainImage = document.querySelector(".mainImage")
-var mainText = document.querySelector(".mainText")
+var mainText = document.querySelector(".titleText")
 
 
 
@@ -70,14 +70,16 @@ function loadContent() {
 
 
 }
+
+mainImage.classList.add("FadeRight")
 const onLoad = () => {
 
     setTimeout(function() {
-        mainImage.classList.add("FadeRight")
+        mainText.classList.add("FadeLeft")
 
     }, 1000);
 
-    mainText.classList.add("FadeLeft")
+
 
 }
 
