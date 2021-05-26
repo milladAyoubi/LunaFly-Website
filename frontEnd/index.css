@@ -386,13 +386,13 @@
         .FadeRight {
             opacity: 1;
             left: 0;
-            transition: 1.2s ease-in-out;
+            transition: 2.0s ease-in-out;
         }
         
         .FadeLeft {
             opacity: 1;
             right: 0;
-            transition: 0.6s ease-in-out;
+            transition: 1.6s ease-in-out;
         }
         
         .FadeBottom {
